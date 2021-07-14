@@ -1,0 +1,140 @@
+body {
+    font-family: "Arial";
+    background-color: #8dc63f;
+    margin: 0;
+    cursor: url('../img/cursor.cur'), auto;
+}
+
+a:hover {
+    cursor: url('../img/hover.cur'), auto;
+}
+
+.wrapper {
+    background-color: #fff;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.clear {
+    clear: both;
+
+}
+
+.top {
+    padding: 25px 0;
+}
+
+.footballAdmin,
+.footballAdmin p,
+.footballAdmin img {
+    float: left;
+}
+
+.footballAdmin img {
+    margin: 0 35px;
+    transition: all 1s ease;
+    width: 50px;
+    filter: drop-shadow(0 0 0 black);
+}
+
+.footballAdmin img:hover {
+    padding-left: 200px;
+    filter: drop-shadow(-100px 0 20px gray);
+    width: 90px;
+}
+
+.footballAdmin p,
+.contactDetails p,
+.contactDetails a {
+    font-size: 22px;
+    color: #39930d;
+    margin: 0;
+    text-decoration: none;
+}
+
+.footballAdmin b {
+    font-size: 44px;
+    display: block;
+}
+
+.footballAdmin i,
+.contactDetails i {
+    font-size: 14px;
+    color: #5a5a5a;
+    display: block;
+}
+
+.contactDetails i {
+    text-align: right;
+}
+
+.contactDetails {
+    float: right;
+}
+
+.picture {
+    width: 100%;
+}
+
+.bottom {
+    padding-bottom: 45px;
+}
+
+.info {
+    max-width: 630px;
+    float: left;
+}
+
+.info h1 {
+    font-size: 24px;
+    color: #39930d;
+}
+
+.info p {
+    font-size: 14px;
+    line-height: 21px;
+    color: #343434;
+}
+
+.partners {
+    max-width: 300px;
+    width: 100%;
+    float: right;
+
+}
+
+.partners p {
+    font-size: 18px;
+    color: #fff;
+    background-color: #39930d;
+    padding: 15px 20px 10px;
+}
+
+.partners ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.partners a {
+    font-size: 14px;
+    line-height: 30px;
+    color: #39930d;
+    text-transform: uppercase;
+    transition: all 1s ease;
+}
+
+.partners a:hover {
+    color: #000000;
+    text-decoration: none;
+    padding-left: 40px;
+}
+
+.footer {
+    font-size: 14px;
+    color: #fff;
+    background-color: #39930d;
+    margin: 0 -15px;
+    padding: 15px;
+}
